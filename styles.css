@@ -1,0 +1,154 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+header .logo img {
+    height: 200px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner Section */
+.banner {
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* Cartelera Section */
+.cartelera {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.cartelera h2 {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.peliculas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pelicula {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    flex: 1 1 calc(33.33% - 20px);
+}
+
+.pelicula img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.pelicula h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #003366;
+}
+
+.pelicula p {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+}
+
+/* Promociones Section */
+.promociones {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.promociones h2 {
+    color: #003366;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.promos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.promo {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    flex: 1 1 calc(50% - 20px);
+}
+
+.promo img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.promo h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+    color: #003366;
+}
+
+.promo p {
+    margin: 0 0 10px;
+    font-size: 0.9rem;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
